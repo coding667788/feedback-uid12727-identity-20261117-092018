@@ -1,0 +1,4 @@
+{"user": "u1", "password": "pw-of-alice", "ok": true}
+{"outer": {"Token": "tok-xyz"}, "n": 1}
+{"arr": [{"secret": [1, 2, 3]}, {"secret": null}], "password": 42}
+{"note": "nothing sensitive"}

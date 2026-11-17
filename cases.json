@@ -1,0 +1,74 @@
+{
+  "schema": "redactor-cases/1",
+  "seed": 20261117,
+  "secrets": [
+    "sk-live-9f8e7d6c5b",
+    "alphaSECRET",
+    "SECRETomega",
+    "pa\"ss\nwörd",
+    "密钥"
+  ],
+  "secrets_base64": [
+    "AAECAwQFBgc="
+  ],
+  "cases": [
+    {
+      "name": "overlap",
+      "format": "text",
+      "input": "samples/overlap.txt",
+      "chunk_sizes": [4, 1, 3]
+    },
+    {
+      "name": "unicode",
+      "format": "text",
+      "input": "samples/unicode.txt",
+      "chunk_sizes": [1]
+    },
+    {
+      "name": "b64",
+      "format": "text",
+      "input": "samples/b64.txt",
+      "chunk_sizes": [5, 2]
+    },
+    {
+      "name": "escaped",
+      "format": "jsonl",
+      "input": "samples/escaped.jsonl",
+      "chunk_sizes": [7]
+    },
+    {
+      "name": "paths",
+      "format": "jsonl",
+      "input": "samples/paths.jsonl",
+      "chunk_sizes": [3, 11]
+    },
+    {
+      "name": "truncated",
+      "format": "jsonl",
+      "input": "samples/truncated.jsonl"
+    },
+    {
+      "name": "badutf8",
+      "format": "jsonl",
+      "input": "samples/badutf8.jsonl",
+      "chunk_sizes": [2]
+    },
+    {
+      "name": "oversize",
+      "format": "jsonl",
+      "input": "samples/oversize.jsonl"
+    },
+    {
+      "name": "inline_text",
+      "format": "text",
+      "content": "prefix 密钥 and sk-live-9f8e7d6c5b suffix",
+      "chunk_sizes": [1, 2, 3]
+    },
+    {
+      "name": "binary_secret",
+      "format": "text",
+      "content_base64": "YmluOgABAgMEBQYHOmVuZA==",
+      "chunk_sizes": [3]
+    }
+  ]
+}

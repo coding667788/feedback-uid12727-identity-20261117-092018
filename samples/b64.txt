@@ -1,0 +1,2 @@
+2026-11-17T09:21:00Z auth blob=c2stbGl2ZS05ZjhlN2Q2YzVi trailer
+second line without secrets

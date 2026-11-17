@@ -1,7 +1,4 @@
+result.json
+result_outputs/
 __pycache__/
-*.py[cod]
-.runtime-tmp/
-*.db
-*.db-wal
-*.db-shm
-.venv/
+*.pyc

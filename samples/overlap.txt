@@ -1,0 +1,2 @@
+2026-11-17T09:20:01Z user=alice action=login note=alphaSECRETomega end
+2026-11-17T09:20:02Z user=bob action=logout note=nothing-here
